@@ -1,0 +1,67 @@
+.page-title {
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5rem;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.sub-title {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 40px;
+}
+
+
+.file-upload-col {
+  margin-bottom: 1.5rem;
+}
+
+
+.upload-form .form-control {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #007bff;
+}
+
+.upload-form .form-control:focus {
+  border-color: #0056b3;
+  box-shadow: none;
+}
+
+
+.submit-button {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.submit-button:disabled {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+
+.alert {
+  margin-top: 20px;
+}
+
+.alert-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.alert-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.container {
+  max-width: 900px;
+}
