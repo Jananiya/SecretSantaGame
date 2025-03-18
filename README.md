@@ -27,7 +27,11 @@ Backend : SpringBoot
 4.Start the React application       : npm start
 # Usage
 1.Access the application: http://localhost:3000
-2.Upload the employee CSV file and previous assignment CSV file to generate the Secret Santa assignments
+2.Upload the employee CSV file and previous assignment CSV file to generate the Secret Santa assignments.
+To ensure smooth file processing, avoid using hyphens in your CSV file names.For example:
+Use: EmployeeList.csv
+Avoid: Employee-List.csv
+This guideline helps prevent potential errors when files are uploaded and handled by the application.
 3.The Output will be a new CSV file containing the Secret Santa assignments ,which can be downloaded.
 # Constraints
 1.An employee cannot be assigned to themselves as their secret file
